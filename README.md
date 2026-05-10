@@ -47,7 +47,7 @@ A production-grade microservice ecosystem built from scratch, replicating real e
 | # | Service | Description | Key Tech | Repo |
 |---|---------|-------------|----------|------|
 | 1 | 🔐 **Auth Service** | JWT auth, BCrypt, RBAC, Spring Security | Java 17, Spring Security, JWT, PostgreSQL | [→ authservice](https://github.com/SriMegaKesavan/authservice) |
-| 2 | 🛍️ **Product Catalog** | CRUD, pagination, search, Flyway migrations | Spring Boot, PostgreSQL, Flyway, JPA | [→ product-catalog](https://github.com/SriMegaKesavan/product-catalog) |
+| 2 | 🛍️ **Product Catalog** | CRUD, pagination, search, Flyway migrations | Spring Boot, PostgreSQL, Flyway, JPA | [→ product-catalog](https://github.com/SriMegaKesavan/productcatalog) |
 | 3 | 📋 **Task Manager** | REST API, streams-based filtering, DTO mapping | Spring Boot, Validation, Global Exception Handling | [→ taskmanager](https://github.com/SriMegaKesavan/taskmanager) |
 | 4 | 🛒 **Order Service** | Saga pattern, distributed transactions, compensating actions | Spring Boot, @Transactional, REST clients | [→ orderservice](https://github.com/SriMegaKesavan/orderservice) |
 | 5 | 📦 **Inventory Service** | Stock reserve/release/deduct, inter-service REST | Spring Boot, PostgreSQL, REST | [→ inventoryservice](https://github.com/SriMegaKesavan/inventoryservice) |
@@ -55,7 +55,7 @@ A production-grade microservice ecosystem built from scratch, replicating real e
 | 7 | 🔔 **Notification Service** | Async email, @Scheduled, retry logic, SMTP | Spring Boot, @Async, JavaMailSender, Actuator | [→ notificationservice](https://github.com/SriMegaKesavan/notificationservice) |
 | 8 | 🌐 **API Gateway** | Routing, CORS, auth forwarding, env-based config | Spring Cloud Gateway, Spring Profiles | [→ gateway](https://github.com/SriMegaKesavan/gateway) |
 | 9 | 📊 **Reporting Service** | Spring Batch, CSV generation, scheduler, File Service upload | Spring Batch, @Scheduled, REST client | [→ reportingservice](https://github.com/SriMegaKesavan/reportingservice) |
-| 10 | 💬 **WebSocket Service** | Real-time chat, live dashboards, private messaging | Spring WebSocket, STOMP, SockJS | [→ websocketservice](https://github.com/SriMegaKesavan/websocketservice) |
+| 10 | 💬 **WebSocket Service** | Real-time chat, live dashboards, private messaging | Spring WebSocket, STOMP, SockJS | [→ websocketservice](https://github.com/SriMegaKesavan/realtime) |
 | 11 | ⚡ **Kafka Event Streaming** | Event-driven microservices, Redis pub/sub, durable streaming | Apache Kafka, Redis, Docker | [→ kafkaservice](https://github.com/SriMegaKesavan/kafkaservice) |
 | 12 | 🌡️ **IoT Dashboard + AI** | MQTT telemetry, React UI, AI chatbot (local LLM) | Spring Boot, MQTT, React, Ollama/phi3, PostgreSQL | [→ IoT](https://github.com/SriMegaKesavan/IoT) · [→ iot-dashboard](https://github.com/SriMegaKesavan/iot-dashboard) |
 
